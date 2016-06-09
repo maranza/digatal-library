@@ -23,7 +23,7 @@ public class sqlconnection {
     try
         {
 
-            Connection conn = DriverManager.getConnection("jdbc:sqlite:/home/master/library.db");
+            Connection conn = DriverManager.getConnection("jdbc:sqlite:/home/master/library.db");// to edit
             
             prep = conn.prepareStatement("Select * from catalog");
 
